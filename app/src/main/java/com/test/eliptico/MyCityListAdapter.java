@@ -1,6 +1,7 @@
 package com.test.eliptico;
 
 import android.content.Context;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -57,7 +58,7 @@ public class MyCityListAdapter extends RecyclerView.Adapter<MyCityListAdapter.Ci
                 String placesCenter = Arrays.toString(featuredList.getCenter());
                 placesType = placesType.replaceAll("\\[", "").replaceAll("]","");
                 placesCenter = placesCenter.replaceAll("\\[", "").replaceAll("]","");
-                binding.tvName.setText(context.getResources().getString(R.string.place_name, featuredList.getPlace_name()));
+                binding.tvName.setText(context.getString(R.string.place_name, featuredList.getPlace_name()));
                 binding.tvType.setText(context.getResources().getString(R.string.place_type, placesType));
                 binding.tvCenter.setText(context.getResources().getString(R.string.place_center, placesCenter));
             }
