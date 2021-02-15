@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Eliptico</string>
+    <string name="search_any_place_name">Search any city name</string>
+    <string name="search">Search</string>
+    <string name="place_name"><b>Name:</b> %s</string>
+    <string name="place_type"><b>Type:</b> %s</string>
+    <string name="place_center"><b>Center:</b> %s</string>
+    <string name="next">Next</string>
+</resources>
